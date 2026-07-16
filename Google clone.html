@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Antariksh Dwivedi">
+    <meta name="description" content="Building Google Chrome Clone.">
+    <link rel="stylesheet" href="output.css">
+    <title>Google</title>
+    <link rel="shortcut icon" href="gsa_android_144dp.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        header h1 {
+            letter-spacing: -10px;
+            height: 8rem;
+            font-family: "Google Sans Flex", sans-serif;
+        }
+
+        header h1 span:nth-child(1) {
+            color: #4285F4;
+        }
+
+        header h1 span:nth-child(2) {
+            color: #EA4335;
+        }
+
+        header h1 span:nth-child(3) {
+            color: #FBBC05;
+        }
+
+        header h1 span:nth-child(4) {
+            color: #4285F4;
+        }
+
+        header h1 span:nth-child(5) {
+            color: #34A853;
+        }
+
+        header h1 span:nth-child(6) {
+            color: #EA4335;
+        }
+
+        .searchbar #search {
+            height: 3.25rem;
+            width: 35rem;
+        }
+
+        .btn :nth-child(1) {
+            height: 2rem;
+            width: 7.5rem;
+        }
+
+        .btn :nth-child(2) {
+            height: 2rem;
+            width: 9rem;
+        }
+
+        .main p {
+            margin-top: 3rem;
+        }
+
+        .main a {
+            color: #4285F4;
+        }
+
+        nav .right :nth-child(3) {
+            margin-top: 6px;
+        }
+
+        .left-side {
+            margin-left: 1rem;
+        }
+
+        .right-side {
+            margin-right: 1.5rem;
+        }
+
+        #search:focus {
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="flex justify-between items-center w-[90vw] m-auto h-20 p-10 font-medium">
+        <div class="left flex gap-10 justify-center items-center">
+            <span><a href="#">About</a></span>
+            <span><a href="#">Store</a></span>
+        </div>
+
+        <div class="right flex gap-10 justify-around items-center">
+            <span><a href="#">Gmail</a></span>
+            <span><a href="#">Images</a></span>
+            <span class="material-symbols-outlined">apps</span>
+        </div>
+    </nav>
+    <header class="h-[70vh] w-full flex justify-center items-center">
+        <div class="main h-[20vh] flex justify-center items-center flex-col bg-red- mt-10">
+            <h1 class="font-medium text-8xl text-center">
+                <span>G</span>
+                <span>o</span>
+                <span>o</span>
+                <span>g</span>
+                <span>l</span>
+                <span>e</span>
+            </h1>
+            <div class="searchbar flex items-center rounded-full border mt-5">
+                <div class="left-side flex items-center">
+                    <span class="material-symbols-outlined cursor-pointer">add</span>
+                    <input class="flex-1 px-3" type="search" name="search" id="search">
+                </div>
+                <div class="right-side flex items-center gap-2">
+                    <span class="AI border p-2 rounded-full text-center px-2 py-1 cursor-pointer">AI Mode</span>
+                    <span class="material-symbols-outlined cursor-pointer" title="Searched by Voice">mic</span>
+                </div>
+            </div>
+            <div class="btn flex justify-around mt-5 items-center gap-10">
+                <button class="border border-zinc-500 rounded-[5px] cursor-pointer font-medium">Google Search</button>
+                <button class="border border-zinc-500 rounded-[5px] cursor-pointer font-medium">I'm Feeling
+                    Lucky</button>
+            </div>
+
+            <p>Google offered in: <a class="link" href="#">हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം
+                    ਪੰਜਾਬੀ</a>
+            </p>
+
+        </div>
+    </header>
+</body>
+
+</html>
