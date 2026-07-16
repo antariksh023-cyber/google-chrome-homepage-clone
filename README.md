@@ -21,10 +21,6 @@ This project is a responsive clone of the Google Chrome homepage built as part o
 
 The purpose of this project was to strengthen my understanding of Tailwind CSS by recreating a familiar interface while improving my front-end development skills.
 
-## 📷 Preview
-
-(Add screenshots here)
-
 ## 👨‍💻 Author
 
 Antariksh Dwivedi
